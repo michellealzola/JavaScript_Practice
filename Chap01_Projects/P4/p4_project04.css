@@ -1,0 +1,85 @@
+body
+{
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(230, 238, 252);
+    margin: auto;
+}
+
+h1
+{
+    font-family: 'Climate Crisis', cursive; 
+    letter-spacing: 10px;
+    color: aliceblue;   
+}
+
+h2
+{
+    font-size: 175%;
+}
+
+p
+{
+    font-size: 110%;
+    color: beige;
+    padding-top: 0;
+    margin: 0;
+}
+
+li
+{
+    font-size: 120%;
+}
+
+header
+{
+    background-color: rgb(135, 185, 187);
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+div
+{   
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+form
+{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(109, 101, 91);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+form input
+{
+    /* width: 50%; */
+    height: 25px;
+    margin-bottom: 2%;
+    
+}
+
+form label
+{
+    margin-right: 2%;
+    color: beige;
+}
+
+div.radio
+{
+    display: inline;
+}
+
+div.autofilled
+{
+    width: 75%;
+    margin-top: 2%;
+}
+
+div.autofilled input
+{
+    width: 100%;
+}
