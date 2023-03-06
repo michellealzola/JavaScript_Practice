@@ -1,0 +1,47 @@
+body
+{
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+}
+
+h1
+{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 700;
+    font-size: 200%;
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+p
+{
+    font-size: 120%;
+    text-align: left;
+}
+
+header
+{
+    background-color: beige;
+    padding: 1%;
+    
+}
+
+div.container
+{    
+    margin: auto;
+    text-align: center;        
+}
+
+
+
+input
+{
+    /* width: 30%; */
+    height: 30px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    /* font-size: 150%; */
+}
