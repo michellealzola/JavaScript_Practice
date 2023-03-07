@@ -1,11 +1,11 @@
 function FahrenheitToCelsius(degree) 
 {
-    return (degree - 32) / 1.8;
+    return ((degree - 32) / 1.8).toFixed(2);
 }
 
 function CelsiusToFahrenheit(degree)
 {
-    return degree * 1.8 + 32;
+    return (degree * 1.8 + 32).toFixed(2);
 }
 
 document.getElementById('cdeg').onchange = function() {

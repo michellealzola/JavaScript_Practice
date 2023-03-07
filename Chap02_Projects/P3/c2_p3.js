@@ -1,6 +1,6 @@
 const SQUARE_MSG = 'You are hovering over the square';
 const TRIANGLE_MSG = 'You are hovering over the triangle';
-const CIRCLE_MSG = 'You are hovering over the square';
+const CIRCLE_MSG = 'You are hovering over the circle';
 
 document.getElementById('square').onmouseover = function(){
     document.getElementById('msg').innerHTML = SQUARE_MSG
