@@ -22,7 +22,7 @@ for (let i = 0; i < captionsLength; i++)
 {
     htmlCode += '<figure>';
     htmlCode += '<img alt="" src="slide' + [i] + '.jpg" />';
-    htmlCode += '<figcaption>caption' + [i] + '</figcaption>';
+    htmlCode += '<figcaption>' + captions[i] + '</figcaption>';
     htmlCode += '</figure>';
 }
 
