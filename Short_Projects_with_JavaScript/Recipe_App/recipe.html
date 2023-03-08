@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="recipe.css" />
+    <script src="recipe.js" defer></script>    
+    <title>Simple Recipe App</title>
+</head>
+<body>
+    <header>
+        <h1>Simple Recipe App</h1>
+    </header>
+    <div class="container">
+        <div class="left">
+            <h2>Click a location:</h2>
+            <button class="btn" >Pesto Pasta</button>
+            <button class="btn" >Chicken Curry</button>
+            <button class="btn" >Banana Bread</button>            
+        </div>
+        <div class="right">
+            <h2>Recipe</h2>
+            <h3>Name:</h3>
+            <p id="name"></p>
+            <h3>Ingredients:</h3>
+            <p id="ingredients"></p>
+            <h3>How to Cook:</h3>
+            <p id="instructions"></p>            
+        </div>
+        <div class="right">
+            <h2>Search a Recipe</h2>
+            <div class="right2">
+                <label>Enter a Keyword</label>
+                <input type="text" id="search">
+                <button id="submit">Submit</button>
+                <p id="results"></p>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
