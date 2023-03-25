@@ -26,7 +26,11 @@ function addMenuItem()
 
 function deleteMenuItem()
 {
-    menuItems.pop();
+    let itemToDelete = menuItemEntry.value;
+
+    let newArr = menuItems.filter(item => item !== itemToDelete);
+
+    menuItems = newArr;
 
     // reset the input field
     menuItemEntry.value = '';
